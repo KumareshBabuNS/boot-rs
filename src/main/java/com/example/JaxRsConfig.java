@@ -1,9 +1,9 @@
 package com.example;
 
 import org.glassfish.jersey.server.ResourceConfig;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
 public class JaxRsConfig extends ResourceConfig {
 
 	public JaxRsConfig() {
